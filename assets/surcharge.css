@@ -1,19 +1,18 @@
-.video-background {
+.video-section {
   position: relative;
   width: 100%;
-  height: 0;
-  padding-bottom: 38.45%; /* 16:9 aspect ratio */
+  height: 700px;
+  overflow: hidden;
 }
 
-.video-foreground {
+#player {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.video-foreground iframe {
-  width: 100%;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
 }
