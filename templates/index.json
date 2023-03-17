@@ -89,6 +89,49 @@
         "padding_bottom": 0
       }
     },
+    "ac149de5-3947-4469-b231-54f451f2ea29": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-0",
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-1",
+        "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "66c76f9e-478a-47ab-8ffc-041fcb153beb": {
       "type": "multicolumn",
       "blocks": {
@@ -148,6 +191,7 @@
         "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SecureMajor.svg",
             "title": "Sécurité garantie - Paiement sécurisé à 100%",
             "text": "",
             "link_label": "",
@@ -157,7 +201,8 @@
         "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-1": {
           "type": "column",
           "settings": {
-            "title": "Satisfaction garantie - Retours faciles et rapides",
+            "image": "shopify:\/\/shop_images\/ShipmentMajor.svg",
+            "title": "Livraison rapide - Expédition en 24h",
             "text": "",
             "link_label": "",
             "link": ""
@@ -166,7 +211,18 @@
         "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/StarFilledMinor.svg",
             "title": "Qualité supérieure - Produits testés et approuvés",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4c574fd7-b7a9-4338-967d-437693f76d77": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ReturnsMajor.svg",
+            "title": "Satisfaction garantie - Retours faciles et rapides",
             "text": "",
             "link_label": "",
             "link": ""
@@ -176,14 +232,19 @@
       "block_order": [
         "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-0",
         "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-1",
-        "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-2"
+        "template--18269755343144__05a0d8eb-5125-4124-a52c-641ef0c4493f-1679051070efe54107-2",
+        "4c574fd7-b7a9-4338-967d-437693f76d77"
+      ],
+      "custom_css": [
+        "div {background: #eee;}",
+        ".multicolumn-card__image-wrapper {max-width: 60px;}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -200,6 +261,7 @@
     "image_banner",
     "featured_collection",
     "709cebde-537c-431f-8cbd-fdb53202943e",
+    "ac149de5-3947-4469-b231-54f451f2ea29",
     "66c76f9e-478a-47ab-8ffc-041fcb153beb",
     "05a0d8eb-5125-4124-a52c-641ef0c4493f"
   ]
