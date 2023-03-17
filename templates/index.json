@@ -88,11 +88,21 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "50158ab3-192e-4d60-acc9-8c7414e2f981": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "709cebde-537c-431f-8cbd-fdb53202943e"
+    "709cebde-537c-431f-8cbd-fdb53202943e",
+    "50158ab3-192e-4d60-acc9-8c7414e2f981"
   ]
 }
