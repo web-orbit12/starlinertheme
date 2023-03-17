@@ -106,7 +106,7 @@
         "template--18269755343144__ac149de5-3947-4469-b231-54f451f2ea29-167905266859745d0c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Massage-Gun3.jpg",
+        "image": "shopify:\/\/shop_images\/Screen-Shot-2020-07-28-at-12.15.49-PM.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -309,7 +309,7 @@
         "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
