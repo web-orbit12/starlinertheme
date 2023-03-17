@@ -92,7 +92,7 @@
     "50158ab3-192e-4d60-acc9-8c7414e2f981": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var deferredMedia = document.querySelector(\"deferred-media\");\n    if (deferredMedia) {\n      var video = deferredMedia.querySelector(\"video\");\n      if (video) {\n        video.autoplay = true;\n      }\n    }\n  });\n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
