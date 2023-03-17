@@ -1,0 +1,14 @@
+name: Node.js installation
+
+on: [push]
+
+jobs:
+  install-node:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+      - name: Check Node.js version
+        run: node --version
